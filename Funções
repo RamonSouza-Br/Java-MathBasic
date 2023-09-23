@@ -1,0 +1,61 @@
+Algumas funções matemáticas em Java
+#Java
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Métodos Básicos
+Math.abs() - Ele retornará o valor absoluto do valor fornecido.
+Math.max() - Ele retorna o Maior de dois valores.
+Math.min() - Ele é usado para retornar o menor de dois valores.
+Math.round() - É usado para arredondar os números decimais para o valor mais próximo.
+Math.sqrt() - É usado para retornar a raiz quadrada de um número.
+Math.cbrt() - É usado para retornar a raiz cúbica de um número.
+Math.pow() - Ele retorna o valor do primeiro argumento elevado à potência do segundo argumento.
+Math.sign() - É usado para encontrar o sinal de um determinado valor.
+Math.ceil() - É usado para encontrar o menor valor inteiro maior ou igual ao argumento ou número inteiro matemático.
+Math.copySign() - É usado para encontrar o valor absoluto do primeiro argumento junto com o sinal especificado no segundo argumento.
+Math.nextAfter() - É usado para retornar o número de ponto flutuante adjacente ao primeiro argumento na direção do segundo argumento.
+Math.nextUp() - Ele retorna o valor de ponto flutuante adjacente a d na direção do infinito positivo.
+Math.nextDown() - Ele retorna o valor de ponto flutuante adjacente a d na direção do infinito negativo.
+Math.floor() - É usado para encontrar o maior valor inteiro que é menor ou igual ao argumento e é igual ao número inteiro matemático de um valor duplo.
+Math.floorDiv() - É usado para encontrar o maior valor inteiro que é menor ou igual ao quociente algébrico.
+Math.random() - Retorna um valor duplo com sinal positivo, maior ou igual a 0,0 e menor que 1,0.
+Math.rint() - Ele retorna o valor duplo mais próximo do argumento fornecido e igual ao número inteiro matemático.
+Math.hypot() - Ele retorna sqrt(x² + y² ) sem estouro intermediário ou estouro insuficiente.
+Math.ulp() - Ele retorna o tamanho de uma unidade em último lugar do argumento.
+Math.getExponent() - É usado para retornar o expoente imparcial usado na representação de um valor.
+Math.IEEEremainder() - É usado para calcular a operação restante em dois argumentos conforme prescrito pelo padrão IEEE 754 e retorna o valor.
+Math.addExact() - Ele é usado para retornar a soma de seus argumentos, lançando uma exceção se o resultado ultrapassar um int ou long.
+Math.subtractExact() - Ele retorna a diferença dos argumentos, lançando uma exceção se o resultado estourar um int.
+Math.multiplyExact() - É usado para retornar o produto dos argumentos, lançando uma exceção se o resultado ultrapassar um int ou long.
+Math.incrementExact() - Ele retorna o argumento incrementado em um, lançando uma exceção se o resultado estourar um int.
+Math.decrementExact() - Ele é usado para retornar o argumento decrementado em um, lançando uma exceção se o resultado estourar um int ou long.
+Math.negateExact() - É usado para retornar a negação do argumento, lançando uma exceção se o resultado ultrapassar um int ou long.
+Math.toIntExact() - Ele retorna o valor do argumento longo, lançando uma exceção se o valor ultrapassar um int.
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Métodos Logarítmicos
+Math.log() - Ele retorna o logaritmo natural de um valor duplo.
+Math.log10() - É usado para retornar o logaritmo de base 10 de um valor duplo.
+Math.log1p() - Ele retorna o logaritmo natural da soma do argumento e 1.
+Math.exp() - Ele retorna E elevado à potência de um valor duplo, onde E é o número de Euler e é aproximadamente igual a 2,71828.
+Math.expm1() - É usado para calcular a potência de E e subtrair um dela.
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Métodos Trigonométricos
+Math.sin() - É usado para retornar o valor do Seno trigonométrico de um valor duplo dado.
+Math.cos() - É usado para retornar o valor do cosseno trigonométrico de um valor duplo dado.
+Math.tan() - É usado para retornar o valor da tangente trigonométrica de um valor duplo dado.
+Math.asin() - É usado para retornar o valor trigonométrico do seno do arco de um dado valor duplo
+Math.acos() - É usado para retornar o valor trigonométrico do cosseno do arco de um valor duplo dado.
+Math.atan() - É usado para retornar o valor trigonométrico da tangente do arco de um valor double dado.
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Métodos Hiperbólicos
+Math.sinh() - É usado para retornar o valor trigonométrico do cosseno hiperbólico de um valor duplo dado.
+Math.cosh() - É usado para retornar o valor trigonométrico do Seno Hiperbólico de um valor duplo dado.
+Math.tanh() - É usado para retornar o valor trigonométrico da tangente hiperbólica de um valor double dado.
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Métodos Angulares
+Math.toDegrees() - É usado para converter o ângulo especificado em Radianos para o ângulo equivalente medido em Graus.
+Math.toRadians() - É usado para converter o ângulo especificado em Graus para o ângulo equivalente medido em Radianos.
